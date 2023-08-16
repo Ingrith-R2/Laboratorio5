@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+header{
+    padding: 9px;
+    color: black;
+    
+}
+.title{
+    text-align: center;
+    font-family: Bell MT;
+    font-size:xx-large;
+    margin-bottom: 20px;
+  
+}
+.container{
+    display: flex;
+    flex-direction: column; /* Apila los cuadros uno encima del otro */
+    align-items: center; /* Centrar los elementos horizontalmente */
+    gap: 50px; /* Espacio entre los cuadros */
+}
+
+.item.item-1{
+    background-color:hsl(192, 7%, 86%);
+    grid-area: 1 / 2 / 2 / 4 ;
+    font-size:xx-large;
+    margin: 30px;
+    width: 30%; /* Ancho de la franja */
+    height: 20px; /* Altura de la franja */
+    background-color: #cf4242; /* Color de la franja */
+    
+}
+
+.item.item-2{
+    background-color:hsl(192, 7%, 86%);
+    grid-area: 1 / 2 ;
+    font-size:xx-large;
+    margin: 270px;
+    width: 30%; /* Ancho de la franja */
+    height: 20px; /* Altura de la franja */
+    background-color: #dad711; /* Color de la franja */
+}
+
+.container2{
+    display: flex;
+    flex-direction: row; /* Alinea los cuadros uno al lado del otro */
+    justify-content: center; /* Centrar los elementos horizontalmente */
+    align-items: center; /* Centrar los elementos verticalmente */
+    gap: 800px; /* Espacio entre los cuadros */
+    align-self: flex-start; /* Alinea el container2 en la parte superior */
+    margin-top: -500px;
+}
+
+.item.item-3{
+    background-color:hsl(192, 7%, 86%);
+    grid-area:auto / 1 / auto / 2;
+    font-size:xx-large;
+    width: 30%; /* Ancho de la franja */
+    height: 20px; /* Altura de la franja */
+    background-color: #25c9dbc6; /* Color de la franja */
+   
+    
+}
+.item.item-4{
+
+    background-color:hsl(192, 7%, 86%);
+    grid-area:auto / 20 / auto / 30;
+    font-size:xx-large;
+    width: 30%; /* Ancho de la franja */
+    height: 20px; /* Altura de la franja */
+    background-color: #4190e3; /* Color de la franja */
+}
